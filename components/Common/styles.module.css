@@ -1,0 +1,124 @@
+
+.container {
+ background-image: url(./images/netflix.png);
+ padding-bottom: 10px;
+
+}
+  
+.header {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 40%;
+    padding-top: 20px;
+    
+}
+.search {
+  margin-left: 22rem;
+  width: 60% !important;
+  margin-right: 1rem;
+ 
+}
+.button_search {
+    background-color: red;
+    color: white;
+    height: 48px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.block_with_filter {
+    display:flex;
+}
+
+.p_elem {
+    margin-left: 4%;
+    color: white;
+    flex-basis: 100px;
+}
+.button_searchby {
+    flex-basis: 100px; 
+    background-color: yellow;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.block_with_filter_second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sortby {
+    margin-left: 39px;
+    margin-right: 30px;
+    flex: 0 0 200px;
+    height: 40px;
+}
+
+.sortbylinks {
+    width:300px;
+    display: flex;
+}
+
+.links{
+    flex-basis: 100px;
+    margin-left: 20px;
+    margin-top: 17px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.film__ites{
+    width: 150px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 5px 5px 45px rgba(256,256,256,.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+    display: flex;
+  justify-content: space-between;
+}
+.film__img {
+    width: calc(100% + 40px);
+    transform: translateX(-20px);
+    height: 240px;
+    object-fit: cover;
+    margin-bottom: 3px;
+    flex-basis: 100px;
+}
+.film_title {
+    font-size: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.span_elem {
+    margin-left: 20px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.divstyle {
+    display: flex;
+}
+.cardcontainer{
+    width: 26rem;
+    flex-basis: 250px;
+    margin: 0 auto;
+}
+
+.description {
+    background-color: grey;
+    
+}
+
+
